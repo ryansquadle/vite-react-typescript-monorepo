@@ -44,4 +44,6 @@ web_modules/
 .pnp.*
 
 # Production build directory
-dist/
+# dist/
+# public/
+# docs/
