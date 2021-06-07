@@ -19,6 +19,9 @@ web_modules/
 # Optional npm cache directory
 .npm
 
+# OSX artifacts
+.DS_Store
+
 # Optional eslint cache
 .eslintcache
 
