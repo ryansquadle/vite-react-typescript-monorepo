@@ -5,7 +5,7 @@
     "dev": "vite",
     "test": "tsc",
     "builder": "vite build",
-    "build": "echo \"Error: no build specified\" && exit 1",
+    "build": "echo \"Error: no build specified\" && exit 0",
     "serve": "vite preview"
   },
   "dependencies": {
