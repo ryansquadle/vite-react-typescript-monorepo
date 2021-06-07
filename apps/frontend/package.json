@@ -4,8 +4,8 @@
   "scripts": {
     "dev": "vite",
     "test": "tsc",
-    "build2": "vite build",
-    "build": "echo \"Error: no build specified\" && exit 0",
+    "build": "vite build",
+    "build2": "echo \"Error: no build specified\" && exit 0",
     "serve": "vite preview"
   },
   "dependencies": {
