@@ -5,10 +5,10 @@
   "scripts": {
     "preinstall-bak": "sh ./install.sh",
     "start": "npm run --prefix apps/frontend dev",
-    "build2": "npm run --prefix apps/frontend build",
+    "build": "npm run --prefix apps/frontend build",
     "serve": "npm run --prefix apps/frontend serve",
     "start2": "npm run dev -w @squadle/frontend",
-    "build": "npm run build -w @squadle/frontend",
+    "build2": "npm run build -w @squadle/frontend",
     "serve2": "npm run serve -w @squadle/frontend",
     "clean-slate": "npx -y rimraf node_modules **/node_modules/ package-lock.json && npm i"
   },
