@@ -12,7 +12,7 @@ function App() {
       <header className="App-header">
         <SvgLogo className="App-logo" />
         <Mega></Mega>
-        <p>Hello Vite + React + TypeScript Monorepo!</p>
+        <p>Hello Vite + React + TypeScript + npm 7 Monorepo!</p>
         <p className="Info-Box">This example contains monorepo best practices<br/><a className="App-link" href="#">ViteJs replacing create-react-app in a monorepo</a> </p>
         <code>{JSON.stringify(pkgJson)}</code>
         <p>
