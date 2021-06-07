@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "test": "tsc",
-    "build": "vite build",
+    "builder": "vite build",
+    "build": "echo \"Error: no build specified\" && exit 1",
     "serve": "vite preview"
   },
   "dependencies": {
