@@ -3,7 +3,7 @@
   "name": "@squadle/vite-react-typescript-monorepo",
   "version": "1.0.0",
   "scripts": {
-    "preinstall": "./install.sh",
+    "preinstall": "sh ./install.sh",
     "start": "npm run --prefix apps/frontend dev",
     "build": "npm run --prefix apps/frontend build",
     "serve": "npm run --prefix apps/frontend serve",
