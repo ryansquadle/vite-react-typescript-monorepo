@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "@squadle/vite-react-typescript-monorepo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run dev -w @squadle/frontend",
+    "build": "npm run build -w @squadle/frontend",
+    "serve": "npm run serve -w @squadle/frontend",
+    "clean-slate": "npx -y rimraf node_modules **/node_modules/ package-lock.json && npm i"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
