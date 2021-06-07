@@ -3,14 +3,10 @@
   "name": "@squadle/vite-react-typescript-monorepo",
   "version": "1.0.0",
   "scripts": {
-    "preinstall-bak": "sh ./install.sh",
-    "start": "npm run --prefix apps/frontend dev",
-    "build2": "npm run --prefix apps/frontend build",
-    "serve": "npm run --prefix apps/frontend serve",
-    "start2": "npm run dev -w @squadle/frontend",
-    "build": "npm run build --workspace @squadle/frontend",
-    "serve2": "npm run serve -w @squadle/frontend",
-    "clean-slate": "npx -y rimraf node_modules **/node_modules/ package-lock.json && npm i"
+    "start": "npm run dev -w @squadle/frontend",
+    "build": "npm run build -w @squadle/frontend",
+    "serve": "npm run serve -w @squadle/frontend",
+    "clean-slate": "npx -y rimraf dist public node_modules **/node_modules/ package-lock.json && npm i"
   },
   "workspaces": [
     "apps/*"
